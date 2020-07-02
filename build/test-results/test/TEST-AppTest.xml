@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AppTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-07-02T16:54:56" hostname="FEILONG" time="0.043">
+  <properties/>
+  <testcase name="should_use_buy_30_save_6_sales_promotion" classname="AppTest" time="0.038"/>
+  <testcase name="should_use_no_sales_promotion" classname="AppTest" time="0.001"/>
+  <testcase name="should_use_50_percentage_sales_promotion" classname="AppTest" time="0.003"/>
+  <system-out><![CDATA[============= Order details =============
+Chinese hamburger x 4 = 24 yuan
+Cold noodles x 1 = 8 yuan
+-----------------------------------
+Promotion used:
+Deduct 6 yuan when the order reaches 30 yuan, saving 6 yuan
+-----------------------------------
+Total: 26 yuan
+===================================
+============= Order details =============
+Chinese hamburger x 4 = 24 yuan
+-----------------------------------
+Total: 24 yuan
+===================================
+============= Order details =============
+Braised chicken x 1 = 18 yuan
+Chinese hamburger x 2 = 12 yuan
+Cold noodles x 1 = 8 yuan
+-----------------------------------
+Promotion used:
+Half price for certain dishes (Braised chicken,Cold noodles)锛宻aving 13 yuan
+-----------------------------------
+Total: 25 yuan
+===================================
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
